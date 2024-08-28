@@ -1,3 +1,11 @@
+.intro{
+    background-color: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-size-adjust: 2;
+    width: 100%;
+}
+
 .profile-photo {
     position: relative;
     float: right;
@@ -7,6 +15,7 @@
     height: auto; */
 }
 .prfile-image {
+    align-items: top;
     top: 0;
     width: 10px;
     height: auto;
@@ -20,7 +29,6 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    align-items: center;
   }
 .header {
     position: absolute;
