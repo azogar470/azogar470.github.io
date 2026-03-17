@@ -1,32 +1,226 @@
-<html lang="en" class="background">
-    <head >
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashutosh Patil</title>
+    <title>Ashutosh Patil - Developer & DevOps Enthusiast</title>
     <link rel="stylesheet" href="style.css">
-    <!--My first HTML code.-->
-</head >
-<body class="mainbody">
-    <div class="profile-photo">
-        <img class="profile-image" src="Dp2.png" style="width: 130px;">
-    </div>
-    <div class="about-me">
-        <div>
-            <h2 class="intro">Ashutosh Patil</h2>
-            <ul style="background-color: rgb(253, 253, 253);">
-                <li>I am a Computer science student, first year at MITS Gwalior.</li>
-                <li>Currently learning Computer Science, Web Development, Data Structures and Algorithm, and Linux Scripting.</li>
-                <li>I also have keen interest Creative arts such as  2D and 3D Graphic Designing and have started learning the same as a hobby.</li>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">AP</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-    </div>  
-    
-        
-    <footer>
-        <div class="footer">
-            <a href="https://www.linkedin.com/in/ashutosh-patil-7aa85620b/"> <img src="https://shorturl.at/xnMUF" style="width: 50px;height: 50px;" ></a>
-            <a href="https://x.com/Ashutoshpatil04"> <img src="https://shorturl.at/MYJbw" style="width: 50px;height: 50px;"></a>
-            <a href="https://www.youtube.com/@Animatezilla23"> <img src="https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small/youtube-logo-youtube-icon-transparent-free-png.png" style="width: 50px;height: 50px;"></a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img class="profile-image" src="Dp2.png" alt="Ashutosh Patil">
+            </div>
+            <div class="hero-text">
+                <h1>Ashutosh Patil</h1>
+                <p class="tagline">Full Stack Developer | DevOps Enthusiast | DSA</p>
+                <p class="bio">Learning concepts of DevOps including Linux scripting, Docker, and Kubernetes. Passionate about building scalable web applications and exploring infrastructure automation.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer currently pursuing Bachelor of Technology at MADHAV INSTITUTE OF TECHNOLOGY AND SCIENCE, Gwalior. With a strong foundation in data structures and algorithms, I'm actively expanding my skills in DevOps technologies and full-stack web development.</p>
+            <p>I enjoy building practical solutions, learning new technologies, and collaborating on projects that make a real impact.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Frameworks</h3>
+                    <ul class="skill-list">
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul class="skill-list">
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <ul class="skill-list">
+                        <li>Linux</li>
+                        <li>Docker Basics</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Structures & Algorithms</h3>
+                    <ul class="skill-list">
+                        <li>Data Structures</li>
+                        <li>Algorithm Design</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul class="skill-list">
+                        <li>HTML & CSS</li>
+                        <li>Responsive Design</li>
+                        <li>UI/UX Basics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Freelancing WebApp</h3>
+                    <p class="project-desc">A comprehensive freelancing platform built with Python (Flask), featuring AI-powered interview conductor for automated candidate screening with real-time audio/video Q&A.</p>
+                    <p class="project-tech"><strong>Tech Stack:</strong> Flask, HTML, CSS, JavaScript, SQLAlchemy, AI Integration</p>
+                    <p class="project-highlights">
+                        ✓ Secure user authentication<br>
+                        ✓ Project posting & bidding system<br>
+                        ✓ AI-powered candidate screening<br>
+                        ✓ Scalable architecture
+                    </p>
+                    <a href="https://github.com" class="project-link">View on GitHub →</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>BachatBazar</h3>
+                    <p class="project-desc">A second-hand item listing platform designed for buying and selling pre-owned goods. Built with Django and PostgreSQL, deployed on Render.com.</p>
+                    <p class="project-tech"><strong>Tech Stack:</strong> Django, PostgreSQL, HTML, CSS, JavaScript</p>
+                    <p class="project-highlights">
+                        ✓ User account management<br>
+                        ✓ Product listing system<br>
+                        ✓ Search & filter functionality<br>
+                        ✓ Deployed on Render.com
+                    </p>
+                    <a href="https://github.com" class="project-link">View on GitHub →</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Smart Student Hub</h3>
+                    <p class="project-desc">A centralized digital platform for comprehensive student activity records in Higher Education Institutions with AI-driven insights and automatic portfolio generation.</p>
+                    <p class="project-tech"><strong>Tech Stack:</strong> Django, Gemini API, PDF Generation, Analytics</p>
+                    <p class="project-highlights">
+                        ✓ Unified achievement tracking<br>
+                        ✓ AI skill analysis & recommendations<br>
+                        ✓ Automatic portfolio generation<br>
+                        ✓ Faculty verification workflows<br>
+                        ✓ Analytics dashboards
+                    </p>
+                    <a href="https://github.com" class="project-link">View on GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>Freelance Web Developer</h3>
+                <p class="role-date">Ongoing</p>
+                <p>Developing web applications for various clients using full-stack technologies. Specializing in building scalable solutions tailored to specific business needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology</h3>
+                <p class="institution">MADHAV INSTITUTE OF TECHNOLOGY AND SCIENCE, Gwalior</p>
+                <p class="duration">2024 - 2028</p>
+                <p class="details">Computer Science & Engineering</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:ashutoshpatil470@gmail.com">ashutoshpatil470@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+91 8815104491</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Gwalior, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Languages</h3>
+                        <p>English, Hindi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ashutosh-patil-7aa85620b/" target="_blank" title="LinkedIn">
+                    <img src="https://shorturl.at/xnMUF" alt="LinkedIn">
+                </a>
+                <a href="https://x.com/Ashutoshpatil04" target="_blank" title="Twitter">
+                    <img src="https://shorturl.at/MYJbw" alt="Twitter">
+                </a>
+                <a href="https://www.youtube.com/@Animatezilla23" target="_blank" title="YouTube">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small/youtube-logo-youtube-icon-transparent-free-png.png" alt="YouTube">
+                </a>
+            </div>
+            <p>&copy; 2024 Ashutosh Patil. All rights reserved.</p>
         </div>
     </footer>
 </body>
